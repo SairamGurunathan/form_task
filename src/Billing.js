@@ -200,7 +200,7 @@ const Billing = () => {
       <th scope="col">Time</th>
     </tr>
   </thead>
-  {/* <tbody>
+  <tbody>
   {userData.length === 0 ? (
     <tr>
       <td colSpan="7" className="text-center">No data available</td>
@@ -213,14 +213,14 @@ const Billing = () => {
         <td>{item.lName}</td>
         <td>{item.email}</td>
         <td>True</td>
-        <td>{date}</td>
-        <td>{time}</td>
+        <td>{item.date}</td>
+        <td>{item.time}</td>
       </tr>
     ))
   )}
-</tbody> */}
+</tbody>
 
-  <tbody >
+  {/* <tbody >
     {userData.map((item,index)=>(
       
     <tr key={index}>
@@ -235,7 +235,7 @@ const Billing = () => {
     ))
     }
     
-  </tbody>
+  </tbody> */}
 </table>
          </div>         
       </div>     
