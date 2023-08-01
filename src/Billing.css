@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
+body{
+    background-color: rgb(228,231,237);
+    font-family: 'Quicksand', sans-serif;
+}
+
+a,.span-1{
+    color: #56bfdc;
+}
+.free{
+  font-size: 14px;
+}
+.sign-in{
+  font-size: 11px;
+}
+.plan{
+  font-size: 18px;
+}
+.terms{
+    font-size: 11.5px;
+}
+.hr{
+  color: gray !important;
+}
+.btn{
+    background-color: rgb(236,102,17);
+    font-size: 14px;
+    padding: 12px;
+}
+
+.btn:hover{
+  background-color: rgb(236,102,17);
+}
+
+.add,.input-group-text, [type="password"]{
+    background-color: rgb(245,246,250);
+    height: 50px;
+  }
+
+.input-group-text a{
+    color: #8F9098;
+}
+
+@media only screen and (max-width: 575px) {
+  .order {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+  .sign-in {
+    font-size: 12px;
+    text-align: center !important;
+    margin: 15px 0px !important;
+    }
+    .password,.last{
+      margin-top: 8px;
+    }
+    .order{
+      margin-top: 8px;
+    }
+}
